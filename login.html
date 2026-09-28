@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Roblox - Cadastro</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="signup-page">
+
+
+  <!-- =================================
+       FUNDO
+  ================================== -->
+
+  <div class="background-grid">
+
+    <div class="card card1"></div>
+    <div class="card card2"></div>
+    <div class="card card3"></div>
+    <div class="card card4"></div>
+    <div class="card card5"></div>
+    <div class="card card6"></div>
+    <div class="card card7"></div>
+    <div class="card card8"></div>
+    <div class="card card9"></div>
+    <div class="card card10"></div>
+
+  </div>
+
+
+  <div class="overlay"></div>
+
+
+
+  <!-- =================================
+       CABEÇALHO
+  ================================== -->
+
+  <header class="top-header">
+
+    <a
+      href="index.html"
+      class="logo small"
+    >
+      ROBLOX
+    </a>
+
+
+    <a
+      href="login.html"
+      class="header-login"
+    >
+      Log In
+    </a>
+
+  </header>
+
+
+
+  <!-- =================================
+       ÁREA DO CADASTRO
+  ================================== -->
+
+  <main class="signup-container">
+
+
+    <div class="signup-box">
+
+
+      <!-- LOGO -->
+
+      <div class="logo form-logo">
+        ROBLOX
+      </div>
+
+
+      <!-- TÍTULO -->
+
+      <h1>
+        CADASTRE-SE E COMECE A SE DIVERTIR!
+      </h1>
+
+
+
+      <!-- =================================
+           FORMULÁRIO
+      ================================== -->
+
+      <form id="signupForm">
+
+
+        <!-- =================================
+             DATA DE NASCIMENTO
+        ================================== -->
+
+        <label for="month">
+          Data de Nascimento
+        </label>
+
+
+        <div class="birthday">
+
+
+          <!-- MÊS -->
+
+          <select
+            id="month"
+            name="mes"
+            required
+          >
+
+            <option value="">
+              Mês
+            </option>
+
+            <option value="Jan">
+              Jan
+            </option>
+
+            <option value="Fev">
+              Fev
+            </option>
+
+            <option value="Mar">
+              Mar
+            </option>
+
+            <option value="Abr">
+              Abr
+            </option>
+
+            <option value="Mai">
+              Mai
+            </option>
+
+            <option value="Jun">
+              Jun
+            </option>
+
+            <option value="Jul">
+              Jul
+            </option>
+
+            <option value="Ago">
+              Ago
+            </option>
+
+            <option value="Set">
+              Set
+            </option>
+
+            <option value="Out">
+              Out
+            </option>
+
+            <option value="Nov">
+              Nov
+            </option>
+
+            <option value="Dez">
+              Dez
+            </option>
+
+          </select>
+
+
+
+          <!-- DIA -->
+
+          <select
+            id="day"
+            name="dia"
+            required
+          >
+
+            <option value="">
+              Dia
+            </option>
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+
+          </select>
+
+
+
+          <!-- ANO -->
+
+          <select
+            id="year"
+            name="ano"
+            required
+          >
+
+            <option value="">
+              Ano
+            </option>
+
+            <option value="2026">2026</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+
+          </select>
+
+        </div>
+
+
+
+        <!-- =================================
+             USUÁRIO
+        ================================== -->
+
+        <label for="username">
+          Usuário
+        </label>
+
+
+        <input
+          id="username"
+          name="username"
+          type="text"
+          placeholder="Não use seu nome real"
+          minlength="3"
+          maxlength="20"
+          autocomplete="username"
+          required
+        >
+
+
+
+        <!-- =================================
+             SENHA
+        ================================== -->
+
+        <label for="password">
+          Senha
+        </label>
+
+
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Pelo menos 8 caracteres"
+          minlength="8"
+          autocomplete="new-password"
+          required
+        >
+
+
+
+        <!-- =================================
+             SEXO
+        ================================== -->
+
+        <label>
+          Sexo
+          <span>
+            (opcional)
+          </span>
+        </label>
+
+
+        <div class="gender">
+
+
+          <!-- FEMININO -->
+
+          <button
+            type="button"
+            class="gender-button"
+            data-gender="Feminino"
+            aria-label="Selecionar feminino"
+          >
+            ♀
+          </button>
+
+
+          <!-- MASCULINO -->
+
+          <button
+            type="button"
+            class="gender-button"
+            data-gender="Masculino"
+            aria-label="Selecionar masculino"
+          >
+            ♂
+          </button>
+
+        </div>
+
+
+        <!--
+          Guarda a opção escolhida.
+          O JavaScript altera esse valor.
+        -->
+
+        <input
+          type="hidden"
+          id="gender"
+          name="gender"
+          value=""
+        >
+
+
+
+        <!-- =================================
+             MENSAGEM DO JAVASCRIPT
+        ================================== -->
+
+        <div
+          id="message"
+          class="form-message"
+        ></div>
+
+
+
+        <!-- =================================
+             TERMOS
+        ================================== -->
+
+        <p class="terms-text">
+
+          Clicando em "Cadastrar-se",
+          você concorda com os
+
+          <a href="#">
+            Termos de Uso
+          </a>,
+
+          incluindo o
+
+          <a href="#">
+            Uso de Cookies
+          </a>
+
+          e a
+
+          <a href="#">
+            Política de Privacidade
+          </a>.
+
+        </p>
+
+
+
+        <!-- =================================
+             BOTÃO CADASTRAR
+        ================================== -->
+
+        <button
+          type="submit"
+          class="submit"
+        >
+          Cadastrar-se
+        </button>
+
+
+      </form>
+
+    </div>
+
+  </main>
+
+
+
+  <!-- =================================
+       JAVASCRIPT
+  ================================== -->
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
